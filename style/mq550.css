@@ -1,0 +1,26 @@
+.universal-heading-box {
+    font-size: 1.7rem !important;
+}
+
+.main-heading {
+    padding: 0px 10px !important;
+}
+
+.home-sec-1-text {
+    font-size: 24px;
+}
+.home-text-box p {
+    width: 100%;
+    position: relative;
+    top: 12px;
+}
+.hehe {
+    margin-top: 59px;
+    font-size: 29px;
+}
+
+
+.about-p {
+    width: 100%;
+    text-align: center;
+}

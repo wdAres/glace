@@ -1,0 +1,115 @@
+.universal-heading-box{
+    font-size: 2.3rem;
+    font-weight: 700;
+    display: block;
+    position: relative;
+    margin: 100px auto;
+    width: fit-content;
+    /* width: 306px; */
+    color: #00c6a9;
+    z-index: 99;
+}
+.uhb-left{
+    width: 161px;
+    height: 59px;
+    border: 4px solid #00c6a9;
+    background: transparent;
+    position: absolute;
+    left: -30px;
+    z-index: -1;
+    top: 23px;
+}
+
+.main-heading{
+    z-index: 10;
+    background: white;
+    /* padding-left: 9px; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.main-heading.black{
+  background-color: black !important;
+}
+.uhb-right {
+    width: 161px;
+    height: 59px;
+    border: 4px solid #00c6a9;
+    background: transparent;
+    position: absolute;
+    right: -30px;
+    z-index: -1;
+    top: -32px;
+}
+
+
+
+
+
+
+/* blinking circle */
+
+.circle, .circle::before {
+    content: " ";
+    margin: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 9px 0 0;
+    transition: all 0.3s;
+    background-color: #00ffb3;
+  }
+  
+  .circle::before {
+    animation: mymove 2s infinite;
+    position: absolute;
+    background-color: #00ff95
+  }
+  
+  @-webkit-keyframes mymove {
+    50%   {
+      transform: scale(2);
+      opacity: 0
+    }
+    100%   {
+      transform: scale(2);
+      opacity: 0
+    }
+  }
+
+
+  /* flexCenter */
+
+  .flexCenter{
+display: flex !important;
+align-items: center;
+justify-content: center;
+  }
+
+
+  /* Chrome, Safari, Edge, Opera */
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.number-input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.span-danger {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#home-sec-7 .container .btn.disabled, #home-sec-7 .container .btn:disabled, #home-sec-7 .container .btn:disabled .btn {
+  background-color: grey !important;
+  border-color: gray;
+}
