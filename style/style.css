@@ -121,6 +121,7 @@ body {
   align-items: center;
   background: #efefef;
   border-radius: 19px;
+  min-height: 500px;
 }
 .slider-card:hover {
   /* box-shadow: rgba(7, 212, 151, 0.1) 0px 4px 12px; */
@@ -135,6 +136,7 @@ body {
   font-weight: 600;
   margin: 20px 0;
   color: #00c6a9;
+  text-align: center;
 }
 .slider-card .detail-list {
 }
